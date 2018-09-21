@@ -1,7 +1,9 @@
 html {
-  background-color: #669999;
+  background-color: #999966;
 }
 
+<!DOCTYPE html>
+<html>
 <head>
 <style>
 ul {
@@ -9,12 +11,12 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #006666;
+    background-color: #f1f1f1;
 }
 
 li a {
     display: block;
-    color: #003333;
+    color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
