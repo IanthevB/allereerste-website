@@ -2,13 +2,6 @@ html {
   background-color: #999966;
 }
 
-<ul>
-  <li><a href="Index.html">Home</a></li>
-  <li><a href="Luisteren.html">Listen to the stone</a></li>
-  <li><a href="Video.html">Look at the stone</a></li>
-  <li><a href="Analyzing the stone">Analyse the stone</a></li>
-</ul>
-
 ul {
     list-style-type: none;
     margin: 0;
