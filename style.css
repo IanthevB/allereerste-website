@@ -1,5 +1,22 @@
 html {
-  background-color: #990000;
+  background-color: #999966;
+}
+
+<ul>
+  <li><a href="Index.html">Home</a></li>
+  <li><a href="Luisteren.html">Listen to the stone</a></li>
+  <li><a href="Video.html">Look at the stone</a></li>
+  <li><a href="Analyzing the stone">Analyse the stone</a></li>
+</ul>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60px;
 }
 
 body {
@@ -26,16 +43,16 @@ a, a:visited {
 
 h1, h2 {
   display: inline-block;
-  border-bottom-style: dashed;
+  border-bottom-style: dots;
   border-bottom-color: #48820f;
 }
 
 h1 {
-  border-bottom-width: 20px;
+  border-bottom-width: 10px;
 }
 
 h2 {
-  border-bottom-width: 10px;
+  border-bottom-width: 5px;
 }
 
 img, audio, iframe {
