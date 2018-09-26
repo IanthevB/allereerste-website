@@ -2,15 +2,15 @@ html {
   background-color: #999966;
 }
 
-<!DOCTYPE html>
-<html>
 <head>
 <style>
+
+<div class="topnav">
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 200px;
+    padding: 1em;
+    width: 750px;
     background-color: #f1f1f1;
 }
 
@@ -26,6 +26,8 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+</div>
+
 </style>
 </head>
 <body>
