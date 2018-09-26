@@ -5,8 +5,7 @@ html {
 <head>
 <style>
 
-<div class="topnav">
-ul {
+<div class="topnav"> {
     list-style-type: none;
     margin: 0;
     padding: 1em;
@@ -14,6 +13,7 @@ ul {
     background-color: #f1f1f1;
 }
 
+<div class="topnav"> {
 li a {
     display: block;
     color: #000;
@@ -21,6 +21,7 @@ li a {
     text-decoration: none;
 }
 
+<div class="topnav"> {
 /* Change the link color on hover */
 li a:hover {
     background-color: #555;
