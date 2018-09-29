@@ -29,11 +29,13 @@ li a:hover {
     background-color: #111;
 }
 
-Stele left
+<body>
+
+Stele left.png
   { float: left;
 }
 
-Stele right
+Stele right.png
   { float: right;
 }
 body {
