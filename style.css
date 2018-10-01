@@ -2,7 +2,6 @@ html {
   background-color: #999966;
 }
 <style>
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,7 +26,6 @@ li a:hover {
     background-color: #111;
 }
 
-<head>
 <body>
 Stele left.png
   { float: left;
