@@ -34,6 +34,10 @@ h2 {
   border-bottom-width: 25px;
 }
 
+h2 {
+  border-bottom-width: 10px;
+}
+
 img, audio, iframe {
   width: 100%;
 }
@@ -79,6 +83,33 @@ img, audio, iframe {
 .topnav a.active {
   background-color: #8B0000;
   color: white;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 </style>
