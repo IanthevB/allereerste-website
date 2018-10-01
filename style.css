@@ -24,14 +24,14 @@ a, a:visited {
 
 h1 {
   display: inline-block
-  border-bottom-width: 20px;
+  border-bottom-width: 50px;
   color: black;
   margin-left: 100px
   text-align: center;
 }
 
 h2 {
-  border-bottom-width: 5px;
+  border-bottom-width: 25px;
 }
 
 img, audio, iframe {
@@ -59,17 +59,16 @@ img, audio, iframe {
 .topnav {
   overflow: hidden;
   background-color: #000000;
-  margin-left: 20px;
-  margin-right: 20px;
+  length: 100px;
 }
 
 .topnav a {
   float: left;
   color: white;
   text-align: center;
-  padding: 20px 15px;
+  padding: 20px 20px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .topnav a:hover {
