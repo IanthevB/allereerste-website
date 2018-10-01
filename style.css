@@ -8,11 +8,11 @@ body {
   margin: 0 auto;
   padding: 1em;
 
-
   font-family: 'SK Modernist';
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
+}
 
 body, pre, pre code {
   font-size: 18px;
