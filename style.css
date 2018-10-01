@@ -59,15 +59,17 @@ img, audio, iframe {
 .topnav {
   overflow: hidden;
   background-color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .topnav a {
   float: left;
   color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 20px 15px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .topnav a:hover {
