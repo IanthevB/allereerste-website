@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-{
-  background-image: url("Background.jpg") no-repeat center fixed;
-  background-size: cover;
-}
-
 <style>
+
+body {
+      background-image: url("Background.jpg") no-repeat center fixed;
+      background-size: cover;
+}
 
 h1 {
   border-bottom-width: 20px;
