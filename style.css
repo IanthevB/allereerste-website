@@ -1,5 +1,8 @@
-html {
-  background-color: 	#B0C4DE
+<html>
+<head>
+<style>
+body {
+  background-color: #B0C4DE;
 }
 
 body {
@@ -64,11 +67,13 @@ img, audio, iframe {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  width: 750px;
 }
 
 .topnav a {
   float: left;
-  color: #FFFFFF;
+  color: #333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
