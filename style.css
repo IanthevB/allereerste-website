@@ -65,14 +65,14 @@ img, audio, iframe {
   float: left;
   color: white;
   text-align: center;
-  padding: 20px 40px;
+  padding: 20px 60px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
   background-color: #8B0000;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
