@@ -1,10 +1,31 @@
-<!DOCTYPE html>
-<html>
-<style>
+html {
+  background-color: 	#B0C4DE
+}
 
 body {
-      background-image: url("Background.jpg") no-repeat center fixed;
-      background-size: cover;
+  width: 750px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+
+
+  font-family: 'SK Modernist';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+
+body, pre, pre code {
+  font-size: 18px;
+}
+
+a, a:visited {
+  color: #48820f;
+}
+
+h1, h2 {
+  display: inline-block;
+  border-bottom-style: groove;
+  border-bottom-color: #334cff;
 }
 
 h1 {
@@ -17,37 +38,6 @@ h1 {
 h2 {
   border-bottom-width: 5px;
 }
-
-Stele left.png
-  { float: left;
-}
-
-Stele right.png
-  { float: right;
-}
-
-body {
-  width: 750px;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 1em;
-
-
-p {
-  font-family: 'SK Modernist';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 16px;
-}
-
-body, pre, pre code {
-  font-size: 18px;
-}
-
-a, a:visited {
-  color: #48820f;
-}
-
 
 img, audio, iframe {
   width: 100%;
