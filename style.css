@@ -57,14 +57,10 @@ a, a:visited {
 }
 
 
-h1, h2 {
-  display: inline-block;
-  border-bottom-style: dots;
-  border-bottom-color: #48820f;
-}
-
 h1 {
-  border-bottom-width: 10px;
+  border-bottom-width: 20px;
+  color: black;
+  text-align: center;
 }
 
 h2 {
