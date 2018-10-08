@@ -37,6 +37,7 @@ a, a:visited {
 h1 {
   display: inline-block
   border-bottom-width: 75px;
+  font-size: 60px;
   color: black;
   margin-left: 100px
   text-align: center;
