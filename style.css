@@ -13,15 +13,16 @@ body {
 }
 
 body {
-  width: 900px;
+  width: 1000px;
   max-width: 90%;
   margin: 0 auto;
+  margin-left: 100px;
   padding: 1em;
 
   font-family: 'Helvetica';
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 2;
 }
 
@@ -35,7 +36,7 @@ a, a:visited {
 
 h1 {
   display: inline-block
-  border-bottom-width: 50px;
+  border-bottom-width: 75px;
   color: black;
   margin-left: 100px
   text-align: center;
@@ -45,7 +46,7 @@ h2 {
   border-bottom-width: 25px;
 }
 
-h2 {
+h3 {
   border-bottom-width: 10px;
 }
 
@@ -73,7 +74,7 @@ img, audio, iframe {
 
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -84,7 +85,7 @@ img, audio, iframe {
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 20px 16px;
     text-decoration: none;
     font-size: 20px;
     color: white;
