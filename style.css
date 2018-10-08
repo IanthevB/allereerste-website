@@ -73,17 +73,12 @@ img, audio, iframe {
 }
 
 .topnav {
-  width: 100%;
-  float: left;
-  margin: 0 0 1em 0;
-  padding: 0;
   overflow: hidden;
   background-color: #000000;
   length: 100px;
 }
 
 .topnav a {
-  width: 100%;
   float: left;
   color: white;
   text-align: center;
