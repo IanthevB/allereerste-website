@@ -71,33 +71,45 @@ img, audio, iframe {
   height: 100%;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #000000;
-  length: 100px;
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-.topnav a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 20px 20px;
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
+  color: white
+  display: block;
 }
 
-.topnav a:hover {
+.sidenav a:hover {
   background-color: #8B0000;
   color: white;
 }
 
-.topnav a.active {
+.sidenav a.active {
   background-color: #8B0000;
   color: white;
 }
 
-{
-    box-sizing: border-box;
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 .column {
