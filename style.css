@@ -141,11 +141,12 @@ img, audio, iframe {
     display: table;
 }
 
-table, td, th {
+table, td, tr, th {
   border-collapse: collapse;
   border: 2px solid black;
-  width: 100%;
-  padding: 15px;
+  table-layout: fixed;
+  width: 150%;
+  padding: 20px;
   text-align: left;
 }
 
@@ -155,5 +156,8 @@ th {
     color: white;
 }
 
+figcaption {
+  display: block;
+}
 </style>
 </html>
