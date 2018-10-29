@@ -38,6 +38,7 @@ h1 {
   display: inline-block
   border-bottom-width: 75px;
   font-size: 60px;
+  font: Stencil Std, fantasy;
   color: black;
   margin-left: 100px
   text-align: center;
