@@ -1,4 +1,5 @@
 <head>
+<link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 html
 
@@ -38,7 +39,7 @@ h1 {
   display: inline-block
   border-bottom-width: 75px;
   font-size: 60px;
-  font: Stencil Std, fantasy;
+  font: 'Arizonia';font-size: 75px;
   color: black;
   margin-left: 100px
   text-align: center;
